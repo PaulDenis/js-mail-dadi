@@ -27,6 +27,8 @@ if (allow) {
 console.log(allow);
 
 // 2 - Gioco dei dadi
+
+document.getElementById("regole").innerHTML = "<li>regole:</li> <li>Un numero randomico verrà lanciato per te</li> <li>Un numero randomico verrà lanciato per l'AI</li> <li>Il numero più alto vince.</li> <li>Enjoy!</li>"
 // Generare un numero random da 1 a 6, sia per il giocatore sia per il computer.
 
 var player_number = Math.floor(Math.random() * 7);
